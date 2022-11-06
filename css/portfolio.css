@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url('../img/run2.jpg');  
+    /* Full height */
+    height: 70%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+h1 {
+    font-family: 'Playfair Display', serif;
+    margin-right: 2rem;
+}
+nav ul {
+    list-style-type: none;
+    border-bottom: 1px solid #97A6A0;
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-align: left;
+  }
+nav li {
+    padding:0.5rem;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 0;
+    /*border: 2px solid yellow;*/
+}
+nav a {
+    padding:0;
+    text-decoration: none;
+    display: block;
+    color: #2D3E40;
+}
+nav a:hover {
+    background-color: #E4F2E7;
+    color: #2D3E40;
+}
+div.secondheader {
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    width: 89.2%;
+	margin: 0 auto;
+}
+
+div.middlebanner {
+	margin: 2rem auto;
+    width: 89.2%;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    
+}
